@@ -76,6 +76,9 @@ devDependencies:
   eslint-config-prettier:
     specifier: ^9.0.0
     version: 9.0.0(eslint@8.52.0)
+  eslint-plugin-import-helpers:
+    specifier: ^1.3.1
+    version: 1.3.1(eslint@8.52.0)
   eslint-plugin-prettier:
     specifier: ^5.0.1
     version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@8.52.0)(prettier@3.0.3)
@@ -3603,6 +3606,14 @@ packages:
       eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@6.9.1)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.0)(eslint@8.52.0)
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /eslint-plugin-import-helpers@1.3.1(eslint@8.52.0):
+    resolution: {integrity: sha512-MrACDozK6TmTJoCFHD71Ew3r5210Za3zlTrhX+fQGsyvxceaFvAI9AcvZ/8oSU0pZ61G3nDEn6mXY0T4S8cJEg==}
+    peerDependencies:
+      eslint: 5.x - 8.x
+    dependencies:
+      eslint: 8.52.0
     dev: true
 
   /eslint-plugin-import@2.29.0(@typescript-eslint/parser@6.9.1)(eslint-import-resolver-typescript@3.6.1)(eslint@8.52.0):
