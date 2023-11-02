@@ -1,0 +1,122 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact, css",
+    "njk": "html",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "editor.linkedEditing": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+    // "node_modules": true
+  },
+
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "prettier-eslint.eslintIntegration": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "terminal.integrated.rendererType": "dom",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoClosingBrackets": "always"
+  },
+  "workbench.iconTheme": "symbols",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "graphql"],
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "repositories": "mappings",
+    "migrations": "tools",
+    "modules": "components"
+  },
+
+  "explorer.compactFolders": false,
+  "tabnine.experimentalAutoImports": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.tsdk": "",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "color-highlight.languages": ["*", "!scss"],
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.tree.indent": 15,
+  "bracketPairColorizer.depreciation-notice": false,
+  "thunder-client.codeSnippetLanguage": "cs-httpclient",
+  "cSpell.language": "en,pt,pt_BR",
+  "json.schemas": [],
+  "cSpell.languageSettings": [],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": ["tailwindcss", "tailwind", "typecheck"],
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "workbench.productIconTheme": "fluent-icons",
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveSassCompile.settings.showOutputWindowOn": "Error",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.colorTheme": "Omni"
+}
