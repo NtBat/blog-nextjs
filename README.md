@@ -46,3 +46,4 @@ Boilerplate with:
 - Dependabot
 - Typecheck script
 - Jest and React Testing Library
+- Content Layer for content with MDX
