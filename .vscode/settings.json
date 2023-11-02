@@ -10,15 +10,11 @@
   "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontSize": 14,
   "emmet.syntaxProfiles": {
-    "javascript": "jsx",
-    "vue-html": "html",
-    "vue": "html"
+    "javascript": "jsx"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact, css",
-    "njk": "html",
-    "vue-html": "html",
-    "vue": "html"
+    "njk": "html"
   },
   "editor.linkedEditing": true,
   "files.exclude": {
@@ -68,7 +64,18 @@
     "migrations": "tools",
     "modules": "components"
   },
-
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript", // if you are using typescript
+    "typescriptreact": "javascript" // if you are using typescript with react
+  },
+  "editor.quickSuggestions": {
+    "strings": true // forces VS Code to trigger completions when editing "string" content
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)", // tw`...`
+    "tw\\.[^`]+`([^`]*)`", // tw.xxx<xxx>`...`
+    "tw\\(.*?\\).*?`([^`]*)" // tw(Component)<xxx>`...`
+  ],
   "explorer.compactFolders": false,
   "tabnine.experimentalAutoImports": true,
   "javascript.suggest.autoImports": true,

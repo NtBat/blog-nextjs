@@ -47,3 +47,5 @@ Boilerplate with:
 - Typecheck script
 - Jest and React Testing Library
 - Content Layer for content with MDX
+- Tailwind prettier plugin
+- Tailwind styled components
