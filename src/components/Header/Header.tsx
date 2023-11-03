@@ -2,9 +2,15 @@ import Link from 'next/link';
 
 import { Logo } from '@/components/Logo';
 
+import { HeaderNav } from '@/models';
+
 import * as S from './styles';
 
-export const Header = () => {
+type HeaderProps = {
+  items: HeaderNav;
+};
+
+export const Header = ({ items }: HeaderProps) => {
   return (
     <S.Container>
       <S.Content>
@@ -12,12 +18,11 @@ export const Header = () => {
 
         <nav>
           <S.NavList>
-            <S.NavItem>
-              <Link href="/">Home</Link>
-            </S.NavItem>
-            <S.NavItem>
-              <Link href="/articles">Articles</Link>
-            </S.NavItem>
+            {items.mainNav.map((item) => (
+              <S.NavItem key={item.title}>
+                <Link href={item.href}>{item.title}</Link>
+              </S.NavItem>
+            ))}
           </S.NavList>
         </nav>
       </S.Content>
