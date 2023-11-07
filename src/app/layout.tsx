@@ -2,6 +2,7 @@ import { headerConfig } from '@/config';
 
 import { Header } from '@/components/Header';
 import '@/styles/globals.css';
+import { Layout } from '@/components/Layout';
 
 export const metadata = {
   title: 'Create Next App',
@@ -17,7 +18,9 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-primary text-gray-100">
         <Header items={headerConfig} />
-        {children}
+        <Layout>
+          <main className="pt-20">{children}</main>
+        </Layout>
       </body>
     </html>
   );
